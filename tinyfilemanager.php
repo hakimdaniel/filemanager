@@ -13,7 +13,7 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":
 define('VERSION', '2.6');
 
 //Application Title
-define('APP_TITLE', 'Tiny File Manager');
+define('APP_TITLE', 'File Manager');
 
 // --- EDIT BELOW CONFIGURATION CAREFULLY ---
 
@@ -26,14 +26,12 @@ $use_auth = true;
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    'admin' => '$2y$10$/K.hjNr84lLNDt8fTXjoI.DBp6PpeyoJ.mGwrrLuCZfAwfSAGqhOW', //admin@123
-    'user' => '$2y$10$Fg6Dz8oH9fPoZ2jJan5tZuv6Z4Kp7avtQ9bDfrdRntXtPeiMAZyGO' //12345
+    'admin' => '$2y$10$jh9IGe19d3cPFsKOciH4Z.LKeqn2Z3fMY0m5r/t2XXnkb27nPKBnu'
 );
 
 // Readonly users
 // e.g. array('users', 'guest', ...)
 $readonly_users = array(
-    'user'
 );
 
 // Global readonly, including when auth is not being used
@@ -47,8 +45,8 @@ $directories_users = array();
 $use_highlightjs = true;
 
 // highlight.js style
-// for dark theme use 'ir-black'
-$highlightjs_style = 'vs';
+// for dark theme use 'ir-black','vs'
+$highlightjs_style = 'ir-black';
 
 // Enable ace.js (https://ace.c9.io/) on view's page
 $edit_files = true;
